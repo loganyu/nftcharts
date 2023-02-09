@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from nftchartsapi import views as nftchartsapi_views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/nftcharts/', nftchartsapi_views.TaskList.as_view(), name='task-list'),
+    path('api/task/<int:task_id>/', nftchartsapi_views.TaskDetail.as_view(), name='task-detail'),
 ]

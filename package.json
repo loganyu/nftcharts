@@ -12,8 +12,13 @@
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^4.14.0",
+    "@solana/wallet-adapter-base": "^0.9.22",
+    "@solana/wallet-adapter-react": "^0.15.32",
+    "@solana/wallet-adapter-react-ui": "^0.9.31",
+    "@solana/wallet-adapter-wallets": "^0.19.16",
+    "@solana/web3.js": "^1.76.0",
     "next": "12.0.10",
-    "react": "17.0.2",
+    "react": "^17.0.2",
     "react-dom": "17.0.2",
     "react-markdown": "8.0.0"
   },
